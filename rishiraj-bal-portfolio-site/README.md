@@ -1,73 +1,184 @@
-# Welcome to your Lovable project
+# Portfolio Site
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/e0cff7d6-4cc7-4da9-86d6-a0710a81f3b2
+## 🚀 Features
 
-## How can I edit this code?
+- **Modern Tech Stack**: Built with React 18, TypeScript, and Vite
+- **Responsive Design**: Fully responsive design that works on all devices
+- **Component Library**: Uses Radix UI components with shadcn/ui styling
+- **Dark/Light Theme**: Theme switching capability with next-themes
+- **Smooth Animations**: Beautiful animations with Tailwind CSS and custom keyframes
+- **Fast Performance**: Optimized build with code splitting and lazy loading
+- **SEO Ready**: Proper meta tags and semantic HTML structure
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: Radix UI + shadcn/ui
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **State Management**: TanStack Query
+- **Theme**: next-themes
+- **Animations**: Tailwind CSS animations
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e0cff7d6-4cc7-4da9-86d6-a0710a81f3b2) and start prompting.
+## 📦 Installation
 
-Changes made via Lovable will be committed automatically to this repo.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio-site
+```
 
-**Use your preferred IDE**
+2. Install dependencies:
+```bash
+npm install
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will be available at `http://localhost:12000`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Build
 
-**Use GitHub Codespaces**
+To build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+To preview the production build:
 
-This project is built with:
+```bash
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🚀 Deployment
 
-## How can I deploy this project?
+### Vercel (Recommended)
 
-Simply open [Lovable](https://lovable.dev/projects/e0cff7d6-4cc7-4da9-86d6-a0710a81f3b2) and click on Share -> Publish.
+This project is optimized for Vercel deployment with the included `vercel.json` configuration.
 
-## Can I connect a custom domain to my Lovable project?
+**Option 1: Vercel CLI**
+```bash
+npm i -g vercel
+vercel
+```
 
-Yes, you can!
+**Option 2: GitHub Integration**
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically deploy on every push
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Netlify
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+1. Build the project:
+```bash
+npm run build
+```
+
+2. Deploy the `dist` folder to Netlify, or connect your GitHub repository for automatic deployments.
+
+### Other Static Hosting
+
+The built files in the `dist` folder can be deployed to any static hosting service:
+- GitHub Pages
+- AWS S3 + CloudFront
+- Firebase Hosting
+- Surge.sh
+- DigitalOcean App Platform
+
+## 📁 Project Structure
+
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Projects.tsx    # Projects showcase
+│   ├── Contact.tsx     # Contact form
+│   └── ...
+├── pages/              # Page components
+│   ├── Index.tsx       # Main page
+│   └── NotFound.tsx    # 404 page
+├── lib/                # Utility functions
+├── hooks/              # Custom React hooks
+├── App.tsx             # Main app component
+├── main.tsx           # App entry point
+└── index.css          # Global styles
+```
+
+## 🎨 Customization
+
+### Colors and Theme
+
+The color scheme can be customized in:
+- `src/index.css` - CSS custom properties
+- `tailwind.config.ts` - Tailwind theme configuration
+
+### Content
+
+Update the portfolio content by editing the components in `src/components/`:
+- `Hero.tsx` - Main hero section
+- `About.tsx` - About section
+- `Projects.tsx` - Projects showcase
+- `Experience.tsx` - Work experience
+- `Education.tsx` - Education background
+- `Contact.tsx` - Contact information
+
+### Styling
+
+The project uses Tailwind CSS for styling. You can:
+- Modify existing styles in component files
+- Add new utility classes
+- Customize the Tailwind configuration in `tailwind.config.ts`
+
+## 🔧 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 📱 Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## 🔧 Development
+
+### Local Development
+
+1. Install Node.js (v18 or higher)
+2. Clone the repository
+3. Run `npm install`
+4. Run `npm run dev`
+5. Open `http://localhost:12000`
+
+### Environment Variables
+
+No environment variables are required for basic functionality.
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ using React and TypeScript
