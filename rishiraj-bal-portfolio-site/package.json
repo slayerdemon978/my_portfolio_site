@@ -1,8 +1,25 @@
 {
-  "name": "portfolio-site",
+  "name": "rishiraj-bal-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Professional portfolio website for Rishiraj Bal - AI/ML Engineer & Quantum Computing Researcher",
+  "author": "Rishiraj Bal",
+  "homepage": "https://rishirajbal.dev",
+  "keywords": [
+    "portfolio",
+    "ai",
+    "machine-learning",
+    "quantum-computing",
+    "blockchain",
+    "react",
+    "typescript",
+    "tailwindcss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/slayerdemon978/my_portfolio_site.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

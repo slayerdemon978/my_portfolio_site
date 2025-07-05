@@ -70,7 +70,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-20 text-center border-t border-purple-500/20 pt-8">
           <p className="text-gray-400">
-            Built with ❤️ by Rishiraj Bal ⚙️
+            Rishiraj Bal - AI/ML Engineer & Quantum Computing Researcher
           </p>
           <p className="text-gray-500 text-sm mt-2">
             © 2025 Rishiraj Bal. All rights reserved.

@@ -1,10 +1,10 @@
-# Portfolio Site
+# Rishiraj Bal - Portfolio Website
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+A modern, responsive portfolio website showcasing AI/ML engineering, quantum computing research, and blockchain development projects. Built with React, TypeScript, and Tailwind CSS.
 
 ## 🚀 Features
 
-- **Modern Tech Stack**: Built with React 18, TypeScript, and Vite
+- **Modern Tech Stack**: Professional development with React 18, TypeScript, and Vite
 - **Responsive Design**: Fully responsive design that works on all devices
 - **Component Library**: Uses Radix UI components with shadcn/ui styling
 - **Dark/Light Theme**: Theme switching capability with next-themes
@@ -181,4 +181,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Built with ❤️ using React and TypeScript
+© 2025 Rishiraj Bal. Professional portfolio showcasing expertise in AI/ML, Quantum Computing, and Blockchain Development.
